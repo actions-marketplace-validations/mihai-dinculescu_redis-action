@@ -12,7 +12,7 @@ Basic:
 
 ```yaml
 steps:
-  - uses: mihai-dinculescu/redis-action@1.2.0
+  - uses: mihai-dinculescu/redis-action@v1.2.0
     with:
       redis version: "latest" # Optional, default is "latest"
       number of databases: 16 # Optional, default is 16
