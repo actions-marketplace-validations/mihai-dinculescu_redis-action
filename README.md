@@ -9,12 +9,14 @@ Inspired by https://github.com/Harmon758/postgresql-action, @Harmon758 Thanks!
 See [action.yml](action.yml)
 
 Basic:
+
 ```yaml
 steps:
-- uses: zhulik/redis-action@1.1.0
-  with:
-    redis version: '5'
-    number of databases: 100
+  - uses: mihai-dinculescu/redis-action@1.2.0
+    with:
+      redis version: "latest" # Optional, default is "latest"
+      number of databases: 16 # Optional, default is 16
+      redis password: "" # Optional, default is empty
 ```
 
 # License
